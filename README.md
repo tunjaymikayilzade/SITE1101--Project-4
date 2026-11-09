@@ -18,3 +18,5 @@ The portfolio includes a home introduction, an interactive platform game that
 reveals personal details, and a Projects section with a playable OR gate and
 the Group 18 Project 1 contribution table. The platform game is controlled with
 the A, D, and Space keys.
+
+The Project 1 team photo is stored locally as `project-1-team.png`.

@@ -908,6 +908,28 @@ h2 {
   text-underline-offset: 4px;
 }
 
+.project-team-photo {
+  margin: 28px 0 0;
+}
+
+.project-team-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e7ebe3;
+  border-radius: 8px;
+}
+
+.project-team-photo figcaption {
+  margin-top: 8px;
+  color: #89938a;
+  font-size: 9px;
+}
+
+.project-team-photo + .project-video-link {
+  margin-top: 10px;
+}
+
 .project-video-link:hover {
   color: #567d4d;
 }
