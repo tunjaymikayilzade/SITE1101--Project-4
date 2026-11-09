@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8f2">
+    <meta
+      name="description"
+      content="Meet Tunjay Mikayilzade, an ADA University student who enjoys books, philosophy, and story-driven games."
+    >
+    <title>Tunjay Mikayilzade — Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navigation page-width" aria-label="Main navigation">
+        <a class="wordmark" href="#home" aria-label="Tunjay Mikayilzade, home">
+          <span class="wordmark-mark">T</span>
+          <span>Tunjay Mikayilzade</span>
+        </a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a class="nav-contact" href="https://github.com/tunjaymikayilzade" target="_blank" rel="noreferrer">
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-width" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> ADA University student</p>
+          <h1 id="hero-title">Curious by nature.<br><span>Always learning.</span></h1>
+          <div class="hero-intro">
+            <p>Hello, I am a 17-year-old student at ADA University. I finished high school at Turkish Diyanet Foundation Baku Turkish Lyceum.</p>
+            <p>Books play a big role in my life. I have read over 50 books from genres like detective, history, classics, and philosophy. Nowadays I am more into reading philosophy. It forces me to think, question, and look at everything from a deeper perspective.</p>
+            <p>In my free time I enjoy video games a lot. If I am not reading or studying, I probably play games. I don’t like competitive games that much; however, story games are my favorite.</p>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">Play to learn more <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+        <div class="portrait-wrap">
+          <div class="portrait-halo" aria-hidden="true"></div>
+          <img
+            class="portrait"
+            src="https://avatars.githubusercontent.com/u/351343959?v=4"
+            alt="Tunjay Mikayilzade's GitHub profile photo"
+            width="360"
+            height="360"
+          >
+          <div class="portrait-caption">
+            <span class="caption-icon" aria-hidden="true">✦</span>
+            <span>Books, ideas &amp; good stories</span>
+          </div>
+          <span class="floating-mark mark-one" aria-hidden="true">✳</span>
+          <span class="floating-mark mark-two" aria-hidden="true">·</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <div class="page-width about-grid">
+          <div class="about-intro">
+            <div class="section-heading">
+              <p class="eyebrow">01 / PLAY &amp; DISCOVER</p>
+              <h2 id="about-title">Meet me<br>along the way<span class="accent-period">.</span></h2>
+              <p class="heading-aside">Jump into a block to reveal a little more.</p>
+            </div>
+            <p class="game-instructions">
+              Click the game, then use A to move left, D to move right, and
+              Space to jump into each block and reveal my story.
+            </p>
+          </div>
+          <div class="game-progress">
+            <span class="game-progress-icon" aria-hidden="true">✳</span>
+            <span id="game-status" aria-live="polite">0 of 4 blocks discovered</span>
+          </div>
+        </div>
+        <div class="page-width game-area">
+          <div class="game-scene" tabindex="0" aria-label="Platform game. Click here, then press A to move left, D to move right, and Space to jump.">
+            <canvas class="platformer-canvas" aria-hidden="true"></canvas>
+            <span class="game-hint" aria-hidden="true">A LEFT&nbsp;&nbsp; D RIGHT&nbsp;&nbsp; SPACE JUMP</span>
+          </div>
+          <div class="game-tools">
+            <span> A ← &nbsp; D → &nbsp; SPACE ↑</span>
+            <button class="game-reset" type="button">Play again</button>
+          </div>
+          <div class="discovery-grid" aria-label="Discover more about Tunjay">
+            <article class="discovery-card" data-discovery="0" aria-hidden="true">
+              <p class="discovery-label">BACKGROUND</p>
+              <h3>Turkish Diyanet Foundation Baku Turkish Lyceum</h3>
+              <p>The high school I finished before university.</p>
+            </article>
+            <article class="discovery-card" data-discovery="1" aria-hidden="true">
+              <p class="discovery-label">NOW</p>
+              <h3>ADA University</h3>
+              <p>I study Computer Science (BSCS) at the School of IT and Engineering.</p>
+            </article>
+            <article class="discovery-card" data-discovery="2" aria-hidden="true">
+              <p class="discovery-label">READING</p>
+              <h3>Over 50 books</h3>
+              <p>Detective, history, classics, and philosophy. Philosophy is what I read most now.</p>
+            </article>
+            <article class="discovery-card" data-discovery="3" aria-hidden="true">
+              <p class="discovery-label">VIDEO GAMES</p>
+              <h3>Story games</h3>
+              <p>I don’t like competitive games that much. Story games are my favorite.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="project section-pad" id="projects" aria-labelledby="projects-title">
+        <div class="page-width">
+          <div class="section-topline project-heading">
+            <div class="section-heading">
+              <p class="eyebrow">02 / THINGS I’VE BUILT</p>
+              <h2 id="projects-title">Projects<span class="accent-period">.</span></h2>
+            </div>
+            <span class="project-badge">MORE PROJECTS TO COME</span>
+          </div>
+          <article class="project-card" aria-labelledby="logic-gates-title">
+            <div class="project-card-heading">
+              <div>
+                <p class="project-label">PROJECT 01 · SITE 1101</p>
+                <h3 id="logic-gates-title">Logic Gates</h3>
+                <p class="project-description">
+                  Our team built digital logic gates and presented how they
+                  work. I was the team leader and built the OR gate.
+                </p>
+              </div>
+              <span class="project-number" aria-hidden="true">01</span>
+            </div>
+
+            <div class="or-gate-demo">
+              <div class="or-gate-controls">
+                <p class="demo-label">TRY THE OR GATE</p>
+                <p class="demo-instructions">
+                  Turn on either input, or both. The output lights up whenever
+                  at least one input is on.
+                </p>
+                <div class="input-switches" aria-label="OR gate inputs">
+                  <button class="input-switch" type="button" data-input="a" aria-pressed="false">
+                    Input A <span class="switch-state">OFF</span>
+                  </button>
+                  <button class="input-switch" type="button" data-input="b" aria-pressed="false">
+                    Input B <span class="switch-state">OFF</span>
+                  </button>
+                </div>
+                <p class="gate-truth" aria-live="polite">A: 0&nbsp; | &nbsp;B: 0&nbsp; → &nbsp;Output: 0</p>
+              </div>
+              <div class="gate-visual">
+                <svg class="or-gate-svg" viewBox="0 0 225 120" role="img" aria-labelledby="gate-title gate-description">
+                  <title id="gate-title">Interactive OR gate</title>
+                  <desc id="gate-description">Two inputs flow through an OR gate to an output lamp. The lamp turns on if either input is on.</desc>
+                  <path class="gate-wire input-wire input-wire-a" d="M 4 35 H 36"></path>
+                  <path class="gate-wire input-wire input-wire-b" d="M 4 85 H 36"></path>
+                  <path class="gate-body" d="M 36 18 C 57 37 57 83 36 102 C 81 93 113 69 137 60 C 113 51 81 27 36 18 Z"></path>
+                  <path class="gate-wire output-wire" d="M 137 60 H 175"></path>
+                  <circle class="output-lamp" cx="193" cy="60" r="13"></circle>
+                  <text class="gate-label" x="9" y="27">A</text>
+                  <text class="gate-label" x="9" y="108">B</text>
+                  <text class="gate-label" x="183" y="98">OUT</text>
+                </svg>
+                <p class="output-message" aria-live="polite"><span class="output-indicator"></span> Output is OFF</p>
+              </div>
+            </div>
+
+            <a
+              class="project-video-link"
+              href="https://youtu.be/rQI84usunvg?si=AvlAt7YArKIEuYUg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Watch our Project 1 video on YouTube <span aria-hidden="true">↗</span>
+            </a>
+
+            <div class="team-heading">
+              <div>
+                <p class="project-label">GROUP 18 · TEAM CONTRIBUTIONS</p>
+                <h4>Who did what</h4>
+              </div>
+              <span class="team-total">4 TEAM MEMBERS</span>
+            </div>
+            <div class="table-scroll">
+              <table class="team-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Team member</th>
+                    <th scope="col">Contribution</th>
+                    <th scope="col">Work completed</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="leader-row">
+                    <th scope="row">Tunjay Mikayilzade <span class="leader-badge">Team leader</span></th>
+                    <td>30%</td>
+                    <td>Time registration; provided helpful educational resources; built the OR gate.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Ayman Ali</th>
+                    <td>30%</td>
+                    <td>Built the AND gate; edited the project video.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Davud Idrisov</th>
+                    <td>20%</td>
+                    <td>Built the NOT gate.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Jafar Zarbaliyev</th>
+                    <td>20%</td>
+                    <td>Built the NAND gate.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-content">
+        <a class="wordmark footer-wordmark" href="#home">
+          <span class="wordmark-mark">T</span>
+          <span>Tunjay Mikayilzade</span>
+        </a>
+        <p>Made with curiosity, one idea at a time.</p>
+        <a class="footer-link" href="https://github.com/tunjaymikayilzade" target="_blank" rel="noreferrer">
+          Find me on GitHub <span aria-hidden="true">↗</span>
+        </a>
+        <span class="copyright">© 2026 Tunjay Mikayilzade</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
