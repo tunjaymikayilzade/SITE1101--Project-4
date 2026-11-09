@@ -536,6 +536,11 @@ h2 {
     font-size: 11px;
   }
 
+  .nav-links a[href="#qualifications-activities"] {
+    font-size: 9px;
+    letter-spacing: -0.035em;
+  }
+
   .nav-links .nav-contact {
     padding: 5px 10px;
   }
@@ -1102,6 +1107,70 @@ h2 {
   letter-spacing: 0.1em;
 }
 
+.qualifications-section {
+  background: #f1f3eb;
+}
+
+.qualifications-heading {
+  margin-bottom: 32px;
+}
+
+.qualifications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.qualifications-card {
+  padding: 28px;
+  border: 1px solid #e5e9df;
+  border-radius: 8px;
+  background: rgb(255 255 255 / 90%);
+}
+
+.qualifications-kicker {
+  margin-bottom: 8px;
+  color: #81956c;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+
+.qualifications-card h3 {
+  margin-bottom: 23px;
+  color: var(--ink);
+  font-size: 21px;
+  letter-spacing: -0.045em;
+}
+
+.qualifications-group + .qualifications-group {
+  margin-top: 20px;
+  padding-top: 17px;
+  border-top: 1px solid var(--line);
+}
+
+.qualifications-group h4 {
+  margin: 0 0 8px;
+  color: var(--green-dark);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.qualifications-group ul {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 18px;
+  color: #68736d;
+  font-size: 12px;
+  line-height: 1.75;
+}
+
+.qualifications-group li::marker {
+  color: #8ca65f;
+}
+
 .table-scroll {
   overflow-x: auto;
   border: 1px solid #e7ebe3;
@@ -1184,6 +1253,14 @@ h2 {
     gap: 14px;
   }
 
+  .qualifications-grid {
+    gap: 12px;
+  }
+
+  .qualifications-card {
+    padding: 22px;
+  }
+
   .game-progress {
     justify-self: start;
   }
@@ -1230,6 +1307,14 @@ h2 {
 
   .about-intro h2 {
     font-size: 36px;
+  }
+
+  .qualifications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .qualifications-card {
+    padding: 21px;
   }
 
   .game-area {
